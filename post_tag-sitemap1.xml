@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.riie.com.ar/sitemaps_xsl.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://www.riie.com.ar/tag/acoso/</loc>
+</url>
+<url>
 <loc>https://www.riie.com.ar/tag/actualizacion-galaxy/</loc>
 </url>
 <url>
@@ -199,6 +202,9 @@
 <loc>https://www.riie.com.ar/tag/proteccion-auditiva/</loc>
 </url>
 <url>
+<loc>https://www.riie.com.ar/tag/proteccion-de-victimas/</loc>
+</url>
+<url>
 <loc>https://www.riie.com.ar/tag/proton-11/</loc>
 </url>
 <url>
@@ -257,6 +263,9 @@
 </url>
 <url>
 <loc>https://www.riie.com.ar/tag/tecnologia/</loc>
+</url>
+<url>
+<loc>https://www.riie.com.ar/tag/tecnologia-de-monitoreo/</loc>
 </url>
 <url>
 <loc>https://www.riie.com.ar/tag/transformacion-digital/</loc>
