@@ -28,3 +28,53 @@ Actual CSS can be found in /assets/css/ folder.
   height: auto;
 }
 
+/* ----------------------------------------------------
+   GeneratePress Child Theme: 2-Column List Layout
+---------------------------------------------------- */
+
+/* Container wrapper setup */
+.gp-two-column-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically aligns title with image center */
+    gap: 20px;          /* Clean spatial gap between columns */
+}
+
+/* Column 1: Fixed-width post thumbnail */
+.gp-column-thumbnail {
+    flex: 0 0 100px;     /* Sets thumbnail base size */
+    max-width: 100px;
+}
+
+.gp-column-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px; /* Optional subtle rounded corners */
+}
+
+/* Column 2: Text area takes remaining layout width */
+.gp-column-content {
+    flex: 1;
+	align-items: flex-start;
+}
+
+.gp-column-content .entry-title {
+    margin: 0;          /* Removes default spacing overrides */
+    font-size: 1.25rem; /* Compact layout title scale */
+}
+
+/* Mobile responsive fallback adjustments */
+@media (max-width: 480px) {
+    .gp-two-column-row {
+        gap: 15px;      /* Tighter spacing for mobile devices */
+    }
+    .gp-column-thumbnail {
+        flex: 0 0 70px; /* Scales down image size slightly on phones */
+        max-width: 70px;
+    }
+    .gp-column-content .entry-title {
+        font-size: 1.1rem;
+    }
+}
+
